@@ -7,7 +7,7 @@ import android.util.LruCache;
  * @Class: ImageCache
  * @Description:()
  * @Date: 2017/7/12  16:20
- * @Company: 西安图文天地科技
+ * @Company: WKJ
  * @Author: yuhao
  * @Version: v1.0
  */
