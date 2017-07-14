@@ -6,7 +6,7 @@ import android.graphics.Bitmap;
  * @Class: DoubleCache
  * @Description:(TODO)
  * @Date: 2017/7/12  17:16
- * @Company: 西安图文天地科技
+ * @Company: WKJ
  * @Author: yuhao
  * @Version: v1.0
  */
