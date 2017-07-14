@@ -17,7 +17,7 @@ import java.util.concurrent.Executors;
  * @Class: ImageLoader
  * @Description:()
  * @Date: 2017/7/12  15:44
- * @Company: 西安图文天地科技
+ * @Company: TWKJ
  * @Author: yuhao
  * @Version: v1.0
  */
