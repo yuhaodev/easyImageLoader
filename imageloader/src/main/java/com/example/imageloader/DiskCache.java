@@ -12,7 +12,7 @@ import java.io.IOException;
  * @Class: DiskCache
  * @Description:()
  * @Date: 2017/7/12  16:57
- * @Company: 西安图文天地科技
+ * @Company: WKJ
  * @Author: yuhao
  * @Version: v1.0
  */
