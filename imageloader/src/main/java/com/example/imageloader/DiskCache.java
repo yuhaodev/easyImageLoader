@@ -17,7 +17,7 @@ import java.io.IOException;
  * @Version: v1.0
  */
 
-public class DiskCache {
+public class DiskCache implements ImageCache{
     static String cacheDir = Environment.getExternalStorageDirectory() + "/cache/";
     //从缓存中取图片
     public Bitmap get(String url){
