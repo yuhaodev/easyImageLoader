@@ -4,15 +4,15 @@ import android.graphics.Bitmap;
 
 /**
  * @Class: DoubleCache
- * @Description:(TODO)
+ * @Description:()
  * @Date: 2017/7/12  17:16
  * @Company: WKJ
  * @Author: yuhao
  * @Version: v1.0
  */
 
-public class DoubleCache {
-    ImageCache mMemorycache = new ImageCache();
+public class DoubleCache  implements ImageCache{
+    MemoryCache mMemorycache = new MemoryCache();
     DiskCache mDiskCache = new DiskCache();
     //先从内存缓存中获取图片，如果没有，再从SD卡中获取
     public Bitmap get(String url){
