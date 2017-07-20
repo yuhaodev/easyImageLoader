@@ -9,7 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.imageloader.DiskCache;
+import com.example.imageloader.DoubleCache;
 import com.example.imageloader.ImageLoader;
+import com.example.imageloader.MemoryCache;
 import com.example.yuhao.imageloaderyu.utils.CheckPermissionUtils;
 import com.example.yuhao.imageloaderyu.utils.PerimssionConfig;
 
@@ -35,7 +38,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ImageView iv_myimage = (ImageView) findViewById(R.id.iv_myimage);
         ImageLoader imageLoader = new ImageLoader();
-        imageLoader.setUseDiskCache(true);
+//        imageLoader.setUseDiskCache(true);
+//        imageLoader.setImageCache(new MemoryCache());
+//        imageLoader.setImageCache(new DiskCache());
+        imageLoader.setImageCache(new DoubleCache());
         String url = "http://api.lovbook.net//static/image/cover.png";
         imageLoader.displayImage(url,iv_myimage);
     }
